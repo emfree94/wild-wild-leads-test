@@ -1,6 +1,6 @@
-import React, {useState} from 'react'
+import React from 'react'
 import Drawer from 'react-modern-drawer'
-import {Field, Form, Formik, useFormikContext} from 'formik'
+import {Field, Form, Formik} from 'formik'
 import * as Yup from "yup";
 import CloseButton from './CloseButton'
 import { toast } from 'react-toastify';
@@ -40,8 +40,6 @@ const inputSchema = [
 
 
 const ConsultationDrawer = ({isOpen, toggleDrawer}) => {
-
- const  [isError, setIsError] = useState(false)
 
   const handleSubmit = (isValid, dirty) => {
 

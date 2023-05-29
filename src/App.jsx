@@ -1,9 +1,6 @@
 import Header from './components/Header'
 import AnimatedCursor from 'react-animated-cursor'
-import AOS from 'aos';
-import 'aos/dist/aos.css';
 import {lazy, Suspense, useEffect, useState} from 'react'
-// import Loader from './components/Loader'
 
 const LazyLoader = lazy(() => import('./components/Loader'));
 
@@ -19,10 +16,6 @@ function App() {
         setIsLoading(false);
       }, 1000)
     };
-  }, []);
-
-  useEffect(() => {
-    AOS.init();
   }, []);
 
   return (

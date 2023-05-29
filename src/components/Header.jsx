@@ -50,7 +50,7 @@ const Header = () => {
                   a
                   isVisible={true}
                 >
-                  <h1 className="main_wrapper--info__title aos-init">
+                  <h1 className="main_wrapper--info__title">
                     Продающие сайты	с
                     <span>высокой конверсией</span>
                   </h1>
