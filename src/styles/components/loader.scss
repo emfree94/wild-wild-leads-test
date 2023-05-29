@@ -1,0 +1,45 @@
+.loader {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  z-index: 9999;
+  background: var(--primary-dark);
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  grid-row-gap: 2rem;
+  cursor: none;
+
+  svg {
+    animation: colorAnimate 1s linear forwards;
+  }
+
+  &--bar {
+    width: 0;
+    height: 5px;
+    background: var(--primary-normal);
+    border-radius: 10px;
+    animation: progress 1s linear forwards;
+  }
+}
+
+@keyframes progress {
+  100% {
+    width: 100%;
+  }
+}
+
+@keyframes colorAnimate {
+  0% {
+    color: var(--primary-normal);
+  }
+
+  50% {
+      color: var(--primary-sky);
+  }
+
+  100% {
+    fill: var(--primary-light);
+  }
+}

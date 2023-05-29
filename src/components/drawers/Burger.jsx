@@ -1,10 +1,9 @@
 import React from 'react'
 import Drawer from 'react-modern-drawer'
-import 'react-modern-drawer/dist/index.css'
 import facebook from '../../styles/images/facebook.png'
 import instagram from '../../styles/images/instagram.png'
 import linkedin from '../../styles/images/linkedin.png'
-import {CloseIcon} from '../../styles/icons/icons'
+import CloseButton from './CloseButton'
 
 const BurgerDrawer = ({isOpen, toggleDrawer}) => {
   const burgerMenuData = [
@@ -86,9 +85,7 @@ const BurgerDrawer = ({isOpen, toggleDrawer}) => {
         </div>
       </div>
 
-      <div className="burger_drawer--close" onClick={toggleDrawer}>
-        <CloseIcon />
-      </div>
+      <CloseButton toggleDrawer={toggleDrawer} />
     </Drawer>
   )
 }

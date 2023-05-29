@@ -1,0 +1,27 @@
+.header_menu {
+  display: grid;
+  grid-auto-flow: row;
+  max-width: 150px;
+  width: 100%;
+
+
+  &--link {
+    display: flex;
+    align-items: flex-end;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 300;
+    color: var(--primary-quaternary);
+    letter-spacing: .5px;
+    padding: 2rem 2rem 2rem 1rem;
+    text-align: center;
+    -ms-writing-mode: tb-lr;
+    writing-mode: vertical-lr;
+    transform: rotate(180deg);
+    transition: all .5s ease;
+
+    &:hover {
+      color: var(--primary-normal);
+    }
+  }
+}

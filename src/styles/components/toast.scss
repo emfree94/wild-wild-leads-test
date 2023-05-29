@@ -1,0 +1,18 @@
+.Toastify__toast {
+  width: 380px !important;
+  height: 48px !important;
+  background-color: #fef0f0 !important;
+  border-color: #fde2e2 !important;
+  padding: 0 !important;
+  min-height: initial !important;
+
+  &-body {
+    margin: 0 !important;
+    padding-left: 20px !important;
+  }
+
+  .Toastify__toast-body > div:last-child {
+    color: #f56c6c;
+  }
+}
+

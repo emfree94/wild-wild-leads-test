@@ -1,0 +1,41 @@
+.social_drawer {
+  display: grid;
+  background: linear-gradient(0deg,#191919,#191919),#343434 !important;
+  box-shadow: 0 0 10px 10px rgba(0,0,0,.7);
+  border-radius: 35px 0 0 35px;
+  border: 1px solid #000;
+  height: 403px !important;
+  position: relative;
+  top: 30px !important;
+  width: 380px !important;
+
+  &--menu {
+    display: grid;
+    padding: 20% 15%;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 2rem;
+    justify-content: center;
+
+    &__link {
+      padding: 30px;
+      background: linear-gradient(318deg,rgba(0,0,0,.4) -1.9%,rgba(36,36,36,.4) 105%),#343434;
+      border-radius: 30px;
+      display: grid;
+      align-items: center;
+      justify-items: center;
+      place-items: center;
+      box-shadow: 0 0 20px 1px rgba(0,0,0,.6);
+      transition: box-shadow .5s ease;
+
+      &:hover {
+        box-shadow: 0 0 20px 10px rgba(235,56,70,.4);
+      }
+
+      &--wrapper {
+        position: relative;
+        display: inline-block;
+        overflow: hidden;
+      }
+    }
+  }
+}

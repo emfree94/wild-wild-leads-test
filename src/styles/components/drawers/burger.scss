@@ -8,18 +8,20 @@
   width: 500px !important;
   height: 630px !important;
   top: 30px !important;
-  cursor: pointer;
 
   &--wrapper {
     max-width: 90%;
     margin: 15% auto;
 
     &__list {
-
       &--item {
         display: flex;
         padding-bottom: 1.8rem;
         transition: text-shadow .5s ease;
+
+        &:hover {
+          text-shadow: 0 0 25px rgba(235,56,70,.7);
+        }
 
         &__link {
           display: flex;
@@ -67,7 +69,7 @@
         }
 
         &__img {
-          background: #171717;
+          background: var(--primary-dark);
           position: relative;
           width: 100%;
           height: 100%;
@@ -84,19 +86,5 @@
         }
       }
     }
-  }
-
-  &--close {
-    position: absolute;
-    right: 5%;
-    top: 5%;
-    background: #eb3846;
-    display: grid;
-    align-items: center;
-    justify-items: center;
-    place-items: center;
-    width: 25px;
-    height: 25px;
-    border-radius: 8px;
   }
 }

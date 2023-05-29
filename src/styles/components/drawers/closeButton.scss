@@ -1,0 +1,14 @@
+.drawer_close {
+  position: absolute;
+  right: 5%;
+  top: 5%;
+  background: var(--primary-normal);
+  display: grid;
+  align-items: center;
+  justify-items: center;
+  place-items: center;
+  width: 25px;
+  height: 25px;
+  border-radius: 8px;
+  cursor: pointer;
+}
