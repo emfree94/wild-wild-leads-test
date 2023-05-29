@@ -1,0 +1,16 @@
+.burger_menu {
+  display: grid;
+  grid-auto-flow: row;
+  justify-items: center;
+  align-content: center;
+  grid-gap: 10px;
+  width: 65px;
+  height: 65px;
+  box-shadow: -8px -8px 16px rgba(18,18,18,.4), 8px 8px 24px rgba(0,0,0,.5);
+  border-radius: 50%;
+  border: 5px double transparent;
+  background-image: linear-gradient(163.01deg,#181818 8.23%,#181818 91.98%),linear-gradient(hsla(0,.4%,48%,.16) 4.48%,rgba(0,0,0,.16) 69.33%);
+  background-origin: border-box;
+  background-clip: content-box,border-box;
+  transition: all .5s ease;
+}
