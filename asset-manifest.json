@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/wild-wild-leads-test/static/css/main.d8fc13f9.css",
+    "main.js": "/wild-wild-leads-test/static/js/main.579eec23.js",
+    "static/js/321.cb36e6bf.chunk.js": "/wild-wild-leads-test/static/js/321.cb36e6bf.chunk.js",
+    "static/media/viber.svg": "/wild-wild-leads-test/static/media/viber.2fb8e9be190b56f6767ee08ee977673f.svg",
+    "static/media/telegram.svg": "/wild-wild-leads-test/static/media/telegram.d3049fa22431eae425c2f6cbb1fe06cd.svg",
+    "static/media/whatsapp.svg": "/wild-wild-leads-test/static/media/whatsapp.c586ac1844555f86949b9f8fcd5d8843.svg",
+    "static/media/burger-menu.svg": "/wild-wild-leads-test/static/media/burger-menu.cc5e3ee6cc80e8818240.svg",
+    "static/media/plus.svg": "/wild-wild-leads-test/static/media/plus.199c941016d2d12c27ad32ef094ae5f5.svg",
+    "index.html": "/wild-wild-leads-test/index.html",
+    "static/media/message.svg": "/wild-wild-leads-test/static/media/message.e07300f2f92fd66cbcf2bd8d1004f160.svg",
+    "main.d8fc13f9.css.map": "/wild-wild-leads-test/static/css/main.d8fc13f9.css.map",
+    "main.579eec23.js.map": "/wild-wild-leads-test/static/js/main.579eec23.js.map",
+    "321.cb36e6bf.chunk.js.map": "/wild-wild-leads-test/static/js/321.cb36e6bf.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d8fc13f9.css",
+    "static/js/main.579eec23.js"
+  ]
+}
